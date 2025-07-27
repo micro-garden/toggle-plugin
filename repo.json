@@ -1,0 +1,16 @@
+[{
+	"Name": "toggle",
+	"Description": "Toggle boolean options in micro editor.",
+	"Author": "Aki Kareha",
+	"Tags": ["option", "toggle"],
+	"Website": "https://github.com/akikareha/micro-toggle-plugin",
+	"Versions": [
+		{
+			"Version": "0.0.0",
+			"Url": "https://github.com/akikareha/micro-toggle-plugin/archive/v0.0.0.zip",
+			"Require": {
+				"micro": ">=2.0.0"
+			}
+		}
+	]
+}]
