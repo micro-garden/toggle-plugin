@@ -6,6 +6,8 @@ for toggling boolean configuration options.
 It is especially useful when bound to keyboard shortcuts, allowing quick
 enable/disable of features like `wordwrap`, `hlsearch`, or `linter`.
 
+See [help/toggle.md](help/toggle.md) for more details.
+
 ## Installation
 
 Place the plugin folder in `~/.config/micro/plug/toggle/`, or clone it
