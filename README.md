@@ -1,7 +1,8 @@
 # Toggle Options Plugin for Micro
 
-This plugin adds two commands to [micro](https://micro-editor.github.io/)
-for toggling boolean configuration options.
+**Toggle Options** is a plugin for
+the [micro](https://micro-editor.github.io/) text editor that adds two
+commands for toggling boolean configuration options.
 
 It is especially useful when bound to keyboard shortcuts, allowing quick
 enable/disable of features like `wordwrap`, `hlsearch`, or `linter`.

@@ -1,7 +1,7 @@
 # Toggle Options Plugin
 
-This plugin adds two commands to micro for toggling boolean configuration
-options.
+*Toggle Options* is a plugin that adds two commands for toggling boolean
+configuration options.
 
 It is especially useful when bound to keyboard shortcuts, allowing quick
 enable/disable of features like `wordwrap`, `hlsearch`, or `linter`.
