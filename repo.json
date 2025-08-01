@@ -4,6 +4,7 @@
 	"Author": "Aki Kareha",
 	"Tags": ["option", "toggle"],
 	"Website": "https://github.com/akikareha/micro-toggle-plugin",
+	"License": "MIT",
 	"Versions": [
 		{
 			"Version": "0.0.0",
