@@ -6,7 +6,7 @@ VERSION = "0.0.0"
 local micro = import("micro")
 local config = import("micro/config")
 
-function toggleOption(bp, args)
+function ToggleCmd(bp, args)
 	if #args < 1 then
 		micro.InfoBar():Error("Not enough arguments")
 		return
@@ -19,7 +19,7 @@ function toggleOption(bp, args)
 	config.SetGlobalOptionNative(args[1], not val)
 end
 
-function toggleLocalOption(bp, args)
+function ToggleLocalCmd(bp, args)
 	if #args < 1 then
 		micro.InfoBar():Error("Not enough arguments")
 		return
@@ -33,7 +33,7 @@ function toggleLocalOption(bp, args)
 end
 
 function init()
-	config.MakeCommand("toggle", toggleOption, config.OptionComplete)
-	config.MakeCommand("togglelocal", toggleLocalOption, config.OptionComplete)
+	config.MakeCommand("toggle", ToggleCmd, config.OptionComplete)
+	config.MakeCommand("togglelocal", ToggleLocalCmd, config.OptionComplete)
 	config.AddRuntimeFile("toggle", config.RTHelp, "help/toggle.md")
 end
