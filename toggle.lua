@@ -1,12 +1,12 @@
 -- Original code by Dmytro Maluka (https://github.com/dmaluka)
 -- Ref: https://github.com/zyedidia/micro/issues/2086#issuecomment-826351299
 
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 
 local micro = import("micro")
 local config = import("micro/config")
 
-function ToggleCmd(bp, args)
+function Toggle(bp, args)
 	if #args < 1 then
 		micro.InfoBar():Error("Not enough arguments")
 		return
@@ -19,7 +19,7 @@ function ToggleCmd(bp, args)
 	config.SetGlobalOptionNative(args[1], not val)
 end
 
-function ToggleLocalCmd(bp, args)
+function ToggleLocal(bp, args)
 	if #args < 1 then
 		micro.InfoBar():Error("Not enough arguments")
 		return
@@ -33,7 +33,7 @@ function ToggleLocalCmd(bp, args)
 end
 
 function init()
-	config.MakeCommand("toggle", ToggleCmd, config.OptionComplete)
-	config.MakeCommand("togglelocal", ToggleLocalCmd, config.OptionComplete)
+	config.MakeCommand("toggle", Toggle, config.OptionComplete)
+	config.MakeCommand("togglelocal", ToggleLocal, config.OptionComplete)
 	config.AddRuntimeFile("toggle", config.RTHelp, "help/toggle.md")
 end
