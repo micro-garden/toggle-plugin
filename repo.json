@@ -3,19 +3,19 @@
 	"Description": "Adds two commands for toggling boolean configuration options.",
 	"Author": "Aki Kareha",
 	"Tags": ["option", "toggle"],
-	"Website": "https://github.com/akikareha/micro-toggle-plugin",
+	"Website": "https://github.com/micro-garden/toggle-plugin",
 	"License": "MIT",
 	"Versions": [
 		{
 			"Version": "0.0.1",
-			"Url": "https://github.com/akikareha/micro-toggle-plugin/archive/v0.0.1.zip",
+			"Url": "https://github.com/micro-garden/toggle-plugin/archive/v0.0.1.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
 		},
 		{
 			"Version": "0.0.0",
-			"Url": "https://github.com/akikareha/micro-toggle-plugin/archive/v0.0.0.zip",
+			"Url": "https://github.com/micro-garden/toggle-plugin/archive/v0.0.0.zip",
 			"Require": {
 				"micro": ">=2.0.0"
 			}
